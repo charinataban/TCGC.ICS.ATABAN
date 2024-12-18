@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 1.5px solid rgba(255, 255, 25, 0.18);
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+.navbar ul li.active a{
+    color: #7cf03d;
+}
+.navbar ul li:hover{
+    color: #7cf03d;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 8%;
+    gap: 10em;
+    background-image: url(pic5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-img img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 25px rgb(149, 0, 40), 
+                0 0 50px rgb(149, 0, 40);
+    border-radius: 10%;
+    align-items: center;
+
+}
+.about-content p{
+    color: rgb(235, 255, 255);
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    border: 5px solid transparent;
+
+    box-shadow: 0 0 35px rgb(149, 0, 40), 
+                0 0 70px rgb(149, 0, 40);
+border-radius: 3%;
+backdrop-filter: blur(15px);
+}
